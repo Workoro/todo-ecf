@@ -14,7 +14,7 @@ const Secret = () => {
     return(
         <>
         <Blabla id="1" src="https://play-lh.googleusercontent.com/pl6cdJ7o-2-w_oQzfWQre9bMhg5RW_pTGXmztKhbRNlG7Y4AEYwfXymtTS3_g-PNaw"/>
-        <Submit style={{fontSize:"25px"}}onClick={() => Blablabla}>Jimmy c'est quoi une props?</Submit>
+        <Submit onClick={() => Blablabla()}>Jimmy c'est quoi une props?</Submit>
         </>
         
     )
